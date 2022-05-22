@@ -3,6 +3,9 @@ pipeline {
    tools{
      maven 'maven'
      }
+     environment{
+         PATH = "C:\maven\apache-maven-3.8.5\bin"
+         }
         stages {
      stage ('Build') {
        steps {
