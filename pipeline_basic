@@ -7,7 +7,7 @@ pipeline {
         stages {
             stage ('git'){
                 steps {
-                    git 'https://github.com/ajay9595/chand-repo-pipline.git'
+                    git 'https://github.com/shashidhargsg/chand-repo-pipline.git'
                 }
             }
      stage ('Build') {
